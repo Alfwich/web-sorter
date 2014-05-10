@@ -1,0 +1,122 @@
+*
+{
+	margin: 0px;
+	padding:0px;
+}
+
+input, select, option
+{
+	pointer:default;
+}
+
+body
+{
+	padding: 3px;
+}
+
+.sortbox_button
+{
+	padding: 2px;
+	width: 50px;
+	margin: 3px 8px 0px 0px;
+}
+
+.sortbox_bar
+{
+	margin: 0px 1px 0px 1px;
+	box-shadow: inset 2px -2px 6px #888;
+	background-color: #000;
+	border-radius: 2px;
+	width:20px;
+	display: inline-block;
+}
+
+.sortbox_bar.b0
+{
+	background-color: #F00;
+}
+
+.sortbox_bar.b1
+{
+	background-color: #0F0;
+}
+
+.sortbox_bar.b2
+{
+	background-color: #FF0;
+}
+
+.sortbox_bar.b3
+{
+	background-color: #F0F;
+}
+
+.sortbox_output
+{
+	padding:20px;
+
+	overflow-x: auto;
+	overflow-y: hidden;
+	white-space: nowrap;
+
+	margin-bottom: 20px;
+
+  /* -webkit-transform: scaleY(-1); */  
+  /* -moz-transform: scaleY(-1); */
+}
+
+.sortbox
+{
+	margin: 3px;
+	padding: 2px;
+	border: 2px solid #EEE;
+	border-radius: 3px;
+	background-color: #DDD;
+}
+
+.sortbox_controls
+{
+	padding-bottom: 5px;
+	margin-bottom: 5px;
+	border-bottom: 2px solid #EEE;	
+}
+
+#application
+{
+	padding: 5px;
+}
+
+#application > input[type=text]
+{
+	margin-right: 10px;
+	display:inline;
+}
+
+#application .clear
+{
+	clear:both;
+	width:100%;
+	height:1px;
+}
+
+#code_input
+{
+	width: 100%;
+	height:300px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* EOF */
+
