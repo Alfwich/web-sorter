@@ -44,6 +44,13 @@ if( typeof MAIN_LOADED !== 'undefined' && typeof SORT_BOX_LOADED !== 'undefined'
 				window.location.hash = "";
 			}
 		}
+    // Add a default sort box 
+    else
+    {
+			var name = "Bubble Sort";
+			new SortBox.Make( name, 'application', 25, SortingAlgorithms.Get( name ) );
+    }
+
 
 	});
 }
